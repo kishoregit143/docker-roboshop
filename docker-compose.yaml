@@ -1,6 +1,6 @@
 services:
   catalogue:
-    build:
+    build: ./catalogue
     # context: ./catalogue
     # dockerfile: Dockerfile
     image: catalogue:v1
