@@ -2,7 +2,7 @@ services:
   catalogue:
   build:
     context: ./catalogue
-    ockerfile: Dockerfile
+    dockerfile: Dockerfile
     image: kishorelinux/catalogue:v1
     container_name: catalogue
     depends_on:
